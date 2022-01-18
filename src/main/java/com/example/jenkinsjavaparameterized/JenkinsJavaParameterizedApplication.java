@@ -7,7 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class JenkinsJavaParameterizedApplication {
 
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        System.out.println("Welcome, " + args[0]);
     }
 
 }
