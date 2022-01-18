@@ -16,7 +16,7 @@ pipeline {
                                             ])
                 }
 
-                sh "./gradlew bootRun --args='Felipe'"
+                sh "./gradlew bootRun --args='${userInput}'"
             }
         }
     }
