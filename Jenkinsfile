@@ -9,7 +9,6 @@ pipeline {
                     sh "./gradlew bootRun --args='${default_nome}'"
                 }
 
-
             }
         }
     }
